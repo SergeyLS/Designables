@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7443F351FC423A1007CAA6F /* ButtonBackDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7443F341FC423A1007CAA6F /* ButtonBackDesignable.swift */; };
+		F7BE9E1E1FBDB6060029E468 /* CircleDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B01FBDA80300932122 /* CircleDesignable.swift */; };
+		F7BE9E1F1FBDB6090029E468 /* ButtonPlusDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B31FBDA82700932122 /* ButtonPlusDesignable.swift */; };
+		F7BE9E201FBDB60C0029E468 /* ButtonOkDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B21FBDA82300932122 /* ButtonOkDesignable.swift */; };
+		F7BE9E211FBDB60E0029E468 /* ButtonDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B11FBDA81F00932122 /* ButtonDesignable.swift */; };
+		F7D110951FBDA6EE00932122 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110941FBDA6EE00932122 /* AppDelegate.swift */; };
+		F7D1109C1FBDA6EE00932122 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D1109B1FBDA6EE00932122 /* Assets.xcassets */; };
+		F7D110AA1FBDA7A200932122 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D110A81FBDA7A100932122 /* Main.storyboard */; };
+		F7D110AB1FBDA7A200932122 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D110A91FBDA7A100932122 /* LaunchScreen.storyboard */; };
+		F7D110B91FBDAF0D00932122 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B81FBDAF0D00932122 /* SelectViewController.swift */; };
+		F7D110BD1FBDAF4900932122 /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110BB1FBDAF4900932122 /* BaseTableViewController.swift */; };
+		F7D110BF1FBDB04700932122 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110BE1FBDB04700932122 /* BaseViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7443F341FC423A1007CAA6F /* ButtonBackDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackDesignable.swift; sourceTree = "<group>"; };
+		F7D110911FBDA6EE00932122 /* Designables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Designables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D110941FBDA6EE00932122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7D1109B1FBDA6EE00932122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7D110A01FBDA6EE00932122 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7D110A81FBDA7A100932122 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F7D110A91FBDA7A100932122 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7D110B01FBDA80300932122 /* CircleDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDesignable.swift; sourceTree = "<group>"; };
+		F7D110B11FBDA81F00932122 /* ButtonDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDesignable.swift; sourceTree = "<group>"; };
+		F7D110B21FBDA82300932122 /* ButtonOkDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonOkDesignable.swift; sourceTree = "<group>"; };
+		F7D110B31FBDA82700932122 /* ButtonPlusDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonPlusDesignable.swift; sourceTree = "<group>"; };
+		F7D110B81FBDAF0D00932122 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		F7D110BB1FBDAF4900932122 /* BaseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		F7D110BE1FBDB04700932122 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7D1108E1FBDA6EE00932122 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7D110881FBDA6EE00932122 = {
+			isa = PBXGroup;
+			children = (
+				F7D110931FBDA6EE00932122 /* Designables */,
+				F7D110921FBDA6EE00932122 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7D110921FBDA6EE00932122 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110911FBDA6EE00932122 /* Designables.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7D110931FBDA6EE00932122 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110AC1FBDA7C600932122 /* Designable */,
+				F7D110A71FBDA73C00932122 /* Storyboards */,
+				F7D110A61FBDA72000932122 /* ViewControllers */,
+				F7D110941FBDA6EE00932122 /* AppDelegate.swift */,
+				F7D1109B1FBDA6EE00932122 /* Assets.xcassets */,
+				F7D110A01FBDA6EE00932122 /* Info.plist */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		F7D110A61FBDA72000932122 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110B41FBDA91400932122 /* Base */,
+				F7D110B71FBDAB1C00932122 /* Main */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F7D110A71FBDA73C00932122 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110A91FBDA7A100932122 /* LaunchScreen.storyboard */,
+				F7D110A81FBDA7A100932122 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F7D110AC1FBDA7C600932122 /* Designable */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110AF1FBDA7EF00932122 /* Button */,
+				F7D110AD1FBDA7E200932122 /* View */,
+			);
+			path = Designable;
+			sourceTree = "<group>";
+		};
+		F7D110AD1FBDA7E200932122 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110B01FBDA80300932122 /* CircleDesignable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7D110AF1FBDA7EF00932122 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110B11FBDA81F00932122 /* ButtonDesignable.swift */,
+				F7D110B21FBDA82300932122 /* ButtonOkDesignable.swift */,
+				F7D110B31FBDA82700932122 /* ButtonPlusDesignable.swift */,
+				F7443F341FC423A1007CAA6F /* ButtonBackDesignable.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		F7D110B41FBDA91400932122 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110BB1FBDAF4900932122 /* BaseTableViewController.swift */,
+				F7D110BE1FBDB04700932122 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F7D110B71FBDAB1C00932122 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F7D110B81FBDAF0D00932122 /* SelectViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7D110901FBDA6EE00932122 /* Designables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7D110A31FBDA6EE00932122 /* Build configuration list for PBXNativeTarget "Designables" */;
+			buildPhases = (
+				F7D1108D1FBDA6EE00932122 /* Sources */,
+				F7D1108E1FBDA6EE00932122 /* Frameworks */,
+				F7D1108F1FBDA6EE00932122 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Designables;
+			productName = Designables;
+			productReference = F7D110911FBDA6EE00932122 /* Designables.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7D110891FBDA6EE00932122 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sergey Leskov";
+				TargetAttributes = {
+					F7D110901FBDA6EE00932122 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7D1108C1FBDA6EE00932122 /* Build configuration list for PBXProject "Designables" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7D110881FBDA6EE00932122;
+			productRefGroup = F7D110921FBDA6EE00932122 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7D110901FBDA6EE00932122 /* Designables */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7D1108F1FBDA6EE00932122 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D1109C1FBDA6EE00932122 /* Assets.xcassets in Resources */,
+				F7D110AB1FBDA7A200932122 /* LaunchScreen.storyboard in Resources */,
+				F7D110AA1FBDA7A200932122 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7D1108D1FBDA6EE00932122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D110BD1FBDAF4900932122 /* BaseTableViewController.swift in Sources */,
+				F7D110BF1FBDB04700932122 /* BaseViewController.swift in Sources */,
+				F7BE9E201FBDB60C0029E468 /* ButtonOkDesignable.swift in Sources */,
+				F7BE9E211FBDB60E0029E468 /* ButtonDesignable.swift in Sources */,
+				F7D110B91FBDAF0D00932122 /* SelectViewController.swift in Sources */,
+				F7BE9E1F1FBDB6090029E468 /* ButtonPlusDesignable.swift in Sources */,
+				F7BE9E1E1FBDB6060029E468 /* CircleDesignable.swift in Sources */,
+				F7D110951FBDA6EE00932122 /* AppDelegate.swift in Sources */,
+				F7443F351FC423A1007CAA6F /* ButtonBackDesignable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F7D110A11FBDA6EE00932122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7D110A21FBDA6EE00932122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7D110A41FBDA6EE00932122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR2UCZHHPB;
+				INFOPLIST_FILE = Designables/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SergeyLeskov.Designables;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7D110A51FBDA6EE00932122 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UR2UCZHHPB;
+				INFOPLIST_FILE = Designables/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SergeyLeskov.Designables;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7D1108C1FBDA6EE00932122 /* Build configuration list for PBXProject "Designables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D110A11FBDA6EE00932122 /* Debug */,
+				F7D110A21FBDA6EE00932122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7D110A31FBDA6EE00932122 /* Build configuration list for PBXNativeTarget "Designables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7D110A41FBDA6EE00932122 /* Debug */,
+				F7D110A51FBDA6EE00932122 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7D110891FBDA6EE00932122 /* Project object */;
+}
