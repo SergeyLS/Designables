@@ -209,7 +209,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QAC-jp-t6r" userLabel="ViewOk">
-                                <rect key="frame" x="10" y="124" width="355" height="120.5"/>
+                                <rect key="frame" x="10" y="114" width="355" height="120.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fsW-0N-PAq" customClass="ButtonOkDesignable" customModule="Designables" customModuleProvider="target">
                                         <rect key="frame" x="140.5" y="30.5" width="60.5" height="60"/>
@@ -260,7 +260,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qOm-Nr-LoC" userLabel="ViewPlus">
-                                <rect key="frame" x="10" y="264.5" width="355" height="120.5"/>
+                                <rect key="frame" x="10" y="244.5" width="355" height="120.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDK-s1-xE5" customClass="ButtonPlusDesignable" customModule="Designables" customModuleProvider="target">
                                         <rect key="frame" x="140.5" y="30.5" width="60.5" height="60"/>
@@ -281,6 +281,9 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gkj-RV-UAa" secondAttribute="height" multiplier="1:1" id="KQP-m3-KDh"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SuE-4a-d8t" customClass="ButtonPlusDesignable" customModule="Designables" customModuleProvider="target">
                                         <rect key="frame" x="221" y="45.5" width="30" height="30"/>
@@ -311,7 +314,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z7p-Hv-ukc" userLabel="ViewBack">
-                                <rect key="frame" x="20" y="405" width="335" height="120.5"/>
+                                <rect key="frame" x="20" y="375" width="335" height="120.5"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRB-Fs-gNA" customClass="ButtonBackDesignable" customModule="Designables" customModuleProvider="target">
                                         <rect key="frame" x="140.5" y="30.5" width="60.5" height="60"/>
@@ -361,6 +364,50 @@
                                     <constraint firstItem="2wD-00-LCb" firstAttribute="centerY" secondItem="Z7p-Hv-ukc" secondAttribute="centerY" id="sRz-3i-CoM"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pes-2k-wcJ" userLabel="ViewPlus">
+                                <rect key="frame" x="20" y="505.5" width="335" height="50"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NR-FX-B9x" customClass="ButtonPlusMinusDesignable" customModule="Designables" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="10.5" width="50" height="30"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                                <color key="value" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRound" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isLeftCorner" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRightCorner" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60R-3g-GBt" customClass="ButtonPlusMinusDesignable" customModule="Designables" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="10.5" width="50" height="30"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isPlus" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isLeftCorner" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="isRightCorner" value="NO"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                <color key="value" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4NR-FX-B9x" firstAttribute="centerY" secondItem="Pes-2k-wcJ" secondAttribute="centerY" id="233-uq-zYk"/>
+                                    <constraint firstItem="4NR-FX-B9x" firstAttribute="width" secondItem="60R-3g-GBt" secondAttribute="width" id="6gq-jC-KAZ"/>
+                                    <constraint firstItem="60R-3g-GBt" firstAttribute="width" secondItem="Pes-2k-wcJ" secondAttribute="height" multiplier="1:1" id="9Fd-8g-1wC"/>
+                                    <constraint firstItem="4NR-FX-B9x" firstAttribute="leading" secondItem="60R-3g-GBt" secondAttribute="trailing" id="9fW-WT-3n6"/>
+                                    <constraint firstItem="60R-3g-GBt" firstAttribute="centerY" secondItem="Pes-2k-wcJ" secondAttribute="centerY" id="EHH-pr-L8F"/>
+                                    <constraint firstItem="60R-3g-GBt" firstAttribute="leading" secondItem="Pes-2k-wcJ" secondAttribute="leading" id="VA7-nO-JcN"/>
+                                    <constraint firstItem="4NR-FX-B9x" firstAttribute="height" secondItem="60R-3g-GBt" secondAttribute="height" id="r3e-ug-QvU"/>
+                                    <constraint firstAttribute="height" constant="50" id="x9K-5j-HWI"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -370,24 +417,27 @@
                             <constraint firstItem="Z7p-Hv-ukc" firstAttribute="leading" secondItem="o26-0N-Zyb" secondAttribute="leading" constant="20" id="B6p-z5-vKd"/>
                             <constraint firstItem="wlI-dX-NYD" firstAttribute="top" secondItem="o26-0N-Zyb" secondAttribute="top" constant="10" id="BzN-Mo-U5n"/>
                             <constraint firstItem="qOm-Nr-LoC" firstAttribute="leading" secondItem="o26-0N-Zyb" secondAttribute="leading" constant="10" id="CjA-7p-Hue"/>
-                            <constraint firstItem="qOm-Nr-LoC" firstAttribute="top" secondItem="QAC-jp-t6r" secondAttribute="bottom" constant="20" id="HRF-TN-oLh"/>
+                            <constraint firstItem="qOm-Nr-LoC" firstAttribute="top" secondItem="QAC-jp-t6r" secondAttribute="bottom" constant="10" id="HRF-TN-oLh"/>
                             <constraint firstItem="o26-0N-Zyb" firstAttribute="trailing" secondItem="qOm-Nr-LoC" secondAttribute="trailing" constant="10" id="I5v-1V-tmd"/>
+                            <constraint firstItem="o26-0N-Zyb" firstAttribute="trailing" secondItem="Pes-2k-wcJ" secondAttribute="trailing" constant="20" id="Imr-tv-4rS"/>
+                            <constraint firstItem="Pes-2k-wcJ" firstAttribute="top" secondItem="Z7p-Hv-ukc" secondAttribute="bottom" constant="10" id="LCT-hT-pba"/>
                             <constraint firstItem="jmZ-6U-Jzc" firstAttribute="leading" secondItem="o26-0N-Zyb" secondAttribute="leading" constant="10" id="PJR-iL-c3z"/>
                             <constraint firstItem="wlI-dX-NYD" firstAttribute="height" secondItem="jmZ-6U-Jzc" secondAttribute="height" id="YWR-QI-Txj"/>
-                            <constraint firstItem="QAC-jp-t6r" firstAttribute="top" secondItem="jmZ-6U-Jzc" secondAttribute="bottom" constant="20" id="YYv-7g-UWE"/>
+                            <constraint firstItem="QAC-jp-t6r" firstAttribute="top" secondItem="jmZ-6U-Jzc" secondAttribute="bottom" constant="10" id="YYv-7g-UWE"/>
                             <constraint firstItem="0lT-g4-8sF" firstAttribute="width" secondItem="jmZ-6U-Jzc" secondAttribute="width" id="ZsA-R0-yEs"/>
                             <constraint firstItem="jmZ-6U-Jzc" firstAttribute="top" secondItem="o26-0N-Zyb" secondAttribute="top" constant="10" id="alv-4Y-i02"/>
                             <constraint firstItem="0lT-g4-8sF" firstAttribute="leading" secondItem="jmZ-6U-Jzc" secondAttribute="trailing" constant="10" id="cgb-q7-Ylw"/>
                             <constraint firstItem="0lT-g4-8sF" firstAttribute="height" secondItem="jmZ-6U-Jzc" secondAttribute="height" id="gK1-gv-MaR"/>
                             <constraint firstItem="NN0-hz-oeX" firstAttribute="width" secondItem="jmZ-6U-Jzc" secondAttribute="width" id="heh-VB-e1u"/>
                             <constraint firstItem="o26-0N-Zyb" firstAttribute="trailing" secondItem="QAC-jp-t6r" secondAttribute="trailing" constant="10" id="iyk-Ac-VRa"/>
-                            <constraint firstItem="Z7p-Hv-ukc" firstAttribute="top" secondItem="qOm-Nr-LoC" secondAttribute="bottom" constant="20" id="jNK-RD-TIE"/>
+                            <constraint firstItem="Z7p-Hv-ukc" firstAttribute="top" secondItem="qOm-Nr-LoC" secondAttribute="bottom" constant="10" id="jNK-RD-TIE"/>
                             <constraint firstItem="NN0-hz-oeX" firstAttribute="top" secondItem="LTN-fF-Axo" secondAttribute="topMargin" constant="10" id="kIe-mD-xld"/>
                             <constraint firstItem="0lT-g4-8sF" firstAttribute="top" secondItem="LTN-fF-Axo" secondAttribute="topMargin" constant="10" id="kMB-YY-iVj"/>
                             <constraint firstItem="NN0-hz-oeX" firstAttribute="height" secondItem="jmZ-6U-Jzc" secondAttribute="height" id="lJi-Lw-GbY"/>
                             <constraint firstItem="wlI-dX-NYD" firstAttribute="width" secondItem="jmZ-6U-Jzc" secondAttribute="width" id="mcj-Ne-SNu"/>
                             <constraint firstItem="o26-0N-Zyb" firstAttribute="trailing" secondItem="wlI-dX-NYD" secondAttribute="trailing" constant="10" id="nIZ-eV-5y0"/>
                             <constraint firstItem="NN0-hz-oeX" firstAttribute="leading" secondItem="0lT-g4-8sF" secondAttribute="trailing" constant="10" id="pML-5R-8Eq"/>
+                            <constraint firstItem="Pes-2k-wcJ" firstAttribute="leading" secondItem="o26-0N-Zyb" secondAttribute="leading" constant="20" id="wbD-gh-haZ"/>
                             <constraint firstItem="wlI-dX-NYD" firstAttribute="leading" secondItem="NN0-hz-oeX" secondAttribute="trailing" constant="10" id="xX7-Su-eeT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="o26-0N-Zyb"/>
@@ -395,7 +445,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q0L-BX-97j" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1302" y="526"/>
+            <point key="canvasLocation" x="1301.5999999999999" y="525.78710644677665"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TKO-gV-LQC">

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F7443F351FC423A1007CAA6F /* ButtonBackDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7443F341FC423A1007CAA6F /* ButtonBackDesignable.swift */; };
+		F7BAADF81FCAFD8C0084DD46 /* ButtonPlusMinusDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BAADF71FCAFD8C0084DD46 /* ButtonPlusMinusDesignable.swift */; };
 		F7BE9E1E1FBDB6060029E468 /* CircleDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B01FBDA80300932122 /* CircleDesignable.swift */; };
 		F7BE9E1F1FBDB6090029E468 /* ButtonPlusDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B31FBDA82700932122 /* ButtonPlusDesignable.swift */; };
 		F7BE9E201FBDB60C0029E468 /* ButtonOkDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D110B21FBDA82300932122 /* ButtonOkDesignable.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		F7443F341FC423A1007CAA6F /* ButtonBackDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBackDesignable.swift; sourceTree = "<group>"; };
+		F7BAADF71FCAFD8C0084DD46 /* ButtonPlusMinusDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonPlusMinusDesignable.swift; sourceTree = "<group>"; };
 		F7D110911FBDA6EE00932122 /* Designables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Designables.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D110941FBDA6EE00932122 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D1109B1FBDA6EE00932122 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F7D110B11FBDA81F00932122 /* ButtonDesignable.swift */,
 				F7D110B21FBDA82300932122 /* ButtonOkDesignable.swift */,
 				F7D110B31FBDA82700932122 /* ButtonPlusDesignable.swift */,
+				F7BAADF71FCAFD8C0084DD46 /* ButtonPlusMinusDesignable.swift */,
 				F7443F341FC423A1007CAA6F /* ButtonBackDesignable.swift */,
 			);
 			path = Button;
@@ -221,6 +224,7 @@
 				F7BE9E1F1FBDB6090029E468 /* ButtonPlusDesignable.swift in Sources */,
 				F7BE9E1E1FBDB6060029E468 /* CircleDesignable.swift in Sources */,
 				F7D110951FBDA6EE00932122 /* AppDelegate.swift in Sources */,
+				F7BAADF81FCAFD8C0084DD46 /* ButtonPlusMinusDesignable.swift in Sources */,
 				F7443F351FC423A1007CAA6F /* ButtonBackDesignable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
